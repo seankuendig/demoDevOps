@@ -10,6 +10,6 @@ public class TestController {
 
     @GetMapping
     public ResponseEntity<String> test() {
-        return new ResponseEntity<>("Halloo", HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>("Halloo", HttpStatus.OK);
     }
 }

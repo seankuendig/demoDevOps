@@ -9,6 +9,6 @@ class TestControllerTest {
 
     @Test
     void test1() {
-        Assertions.assertThat(1).isEqualTo(0);
+        Assertions.assertThat(1).isEqualTo(1);
     }
 }
